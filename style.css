@@ -7,20 +7,47 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
-.menu-container{
+.logo{
+    width: 155px;
+    margin-top: 10px;
+}
 
+.main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+/*.menu-global-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}*/
+
+.menu-container{
+    margin-bottom: 13px;
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
 }
 
 .menu-item{
     list-style: none;
     font-size: 1rem;
+    display: inline-block;
+    color: #4a4a4a;
+    margin-right: 20px;
 }
 
 .main-container{
     background-color: #3CDBC0;
+    height: 100vh;
 }
 
 .main-message{
     color: #FFFFFF;
     font-size: 1.875rem;
+    text-align: center;
+    font-weight: bold;
 }
